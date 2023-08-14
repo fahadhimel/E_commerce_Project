@@ -1,0 +1,101 @@
+section {
+  height: 98vh;
+  width: 98vw;
+  margin: 0 auto;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+}
+.E_commerce {
+    position: relative;
+  height: 90vh;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.maching {
+    
+}
+.left {
+  height: 100%;
+  width: 68vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.leftitem {
+  height: 250px;
+  width: 30vw;
+  padding: 10px 20px;
+  border-radius: 10px;
+   display: grid;
+   grid-template-columns: auto;
+  box-shadow: 0 0 50px rgba(68, 85, 102, 0.282);
+}
+.nameImages{
+    /* height: 250px; */
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.headerP{
+    width: 15vw;
+    color: rgba(12, 19, 27, 0.571);
+}
+.nameImages img{
+    height: 160px;
+    width: 170px;
+}
+.priceBtn{
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+  font-size: 30px;
+  color: crimson;
+  font-weight: 600;
+}
+.priceBtn p{
+    color: #3456;
+    font-size: 20px;
+}
+.btn {
+  height: 50px;
+  width: 170px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: crimson;
+  border: none;
+  border-radius: 5px;
+}
+.rightFixed{
+    position: absolute;
+    float: right;
+}
+.right {
+  height: 100%;
+  width: 20vw;
+
+}
+.rightFixed{
+    position: fixed;
+
+}
+.rightitem{
+width: 120%;
+height: 100px;
+border-radius: 10px;
+margin: 10px 0;
+padding: 0px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 0 0 50px rgba(68, 85, 102, 0.282);
+}
+.rightheader{
+    color: crimson;
+}
