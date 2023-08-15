@@ -1,3 +1,29 @@
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+  
+  
+}
+.E_commerce ::-webkit-scrollbar{
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fbf9f9; 
+  margin: 50px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #138599; 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 section {
   height: 98vh;
   width: 98vw;
@@ -7,7 +33,7 @@ section {
   align-items: center;
 }
 .E_commerce {
-    position: relative;
+  position: relative;
   height: 90vh;
   width: 90vw;
   margin: 0 auto;
@@ -16,7 +42,6 @@ section {
   /* align-items: center; */
 }
 .maching {
-    
 }
 .left {
   height: 100%;
@@ -30,37 +55,36 @@ section {
   width: 30vw;
   padding: 10px 20px;
   border-radius: 10px;
-   display: grid;
-   grid-template-columns: auto;
+  display: grid;
+  grid-template-columns: auto;
   box-shadow: 0 0 50px rgba(68, 85, 102, 0.282);
 }
-.nameImages{
-    /* height: 250px; */
+.nameImages {
+  /* height: 250px; */
 
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
-.headerP{
-    width: 15vw;
-    color: rgba(12, 19, 27, 0.571);
+.headerP {
+  width: 15vw;
+  color: rgba(12, 19, 27, 0.571);
 }
-.nameImages img{
-    height: 160px;
-    width: 170px;
+.nameImages img {
+  height: 160px;
+  width: 170px;
 }
-.priceBtn{
-    display: flex;
-    justify-content: space-between;
+.priceBtn {
+  display: flex;
+  justify-content: space-between;
 }
 .header {
   font-size: 30px;
   color: crimson;
   font-weight: 600;
 }
-.priceBtn p{
-    color: #3456;
-    font-size: 20px;
+.priceBtn p {
+  color: #3456;
+  font-size: 20px;
 }
 .btn {
   height: 50px;
@@ -72,30 +96,31 @@ section {
   border: none;
   border-radius: 5px;
 }
-.rightFixed{
-    position: absolute;
-    float: right;
+.rightFixed {
+  position: absolute;
+  height: 90vh;
+  width: 22vw;
+  padding: 10px 20px;
+  overflow: auto;
 }
 .right {
   height: 100%;
   width: 20vw;
-
 }
-.rightFixed{
-    position: fixed;
-
+.rightFixed {
+  position: fixed;
 }
-.rightitem{
-width: 120%;
-height: 100px;
-border-radius: 10px;
-margin: 10px 0;
-padding: 0px 20px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-box-shadow: 0 0 50px rgba(68, 85, 102, 0.282);
+.rightitem {
+  width: 20vw;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(68, 85, 102, 0.236);
 }
-.rightheader{
-    color: crimson;
+.rightheader {
+  color: crimson;
 }

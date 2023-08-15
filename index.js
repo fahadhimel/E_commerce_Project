@@ -9,7 +9,7 @@ const itemAllData = [
   { id: 5, name: "Item5", price: 35, qtt: 1, image:"images/5.jpg" },
   { id: 6, name: "Item6", price: 70, qtt: 1, image:"images/6.jpg" },
   { id: 7, name: "Item7", price: 18, qtt: 1, image:"images/7.jpg" },
-  { id: 8, name: "Item8", price: 58, qtt: 1, image:"images/8.jpg" },
+  { id: 8, name: "Item8", price: 58, qtt: 1, image:"images/8.JPG" },
   { id: 9, name: "Item9", price: 96, qtt: 1, image:"images/9.jpg" },
   { id: 10, name: "Item10", price: 200, qtt: 1, image:"images/10.jpg" },
 ];
